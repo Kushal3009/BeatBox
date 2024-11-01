@@ -1,0 +1,78 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+    background-color: #1e293b; /* Dark blue-gray background */
+    padding: 1rem;
+}
+
+.custom-navbar .navbar-brand {
+    color: #e2e8f0; /* Light gray text */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.custom-navbar .navbar-brand:hover {
+    color: #fbbf24; /* Light gray text */
+
+}
+
+
+.custom-navbar .search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-navbar .search-form {
+    display: flex;
+    width: 75%; /* Adjust the width as needed */
+}
+
+.custom-navbar .search-input {
+    border-radius: 20px;
+    border: 1px solid #94a3b8;
+    padding: 0.5rem 1rem;
+    background-color: #334155;
+    color: #e2e8f0;
+}
+
+.custom-navbar .search-input::placeholder {
+    color: #94a3b8;
+}
+
+.custom-navbar .search-button {
+    background-color: transparent; /* Use transparent to mimic Bootstrap button style */
+    border: 1px solid #fbbf24; /* Amber outline for button */
+    color: #fbbf24; /* Amber text */
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-navbar .search-button:hover {
+    background-color: #fbbf24;
+    color: #1e293b; /* Dark background on hover */
+}
+
+.custom-navbar .auth-button {
+    background-color: transparent; /* Use transparent to mimic Bootstrap button style */
+    border: 1px solid #fbbf24; /* Amber outline for button */
+    color: #fbbf24; /* Amber text */
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-navbar .auth-button:hover {
+    background-color: #fbbf24;
+    color: #1e293b; /* Dark background on hover */
+}
+
+/* Mobile-specific adjustments */
+.mobile-navbar .search-input {
+    border-radius: 30px;
+    padding: 0.5rem;
+}
